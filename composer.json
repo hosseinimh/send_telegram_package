@@ -1,0 +1,23 @@
+{
+    "name": "hosseinimh/telegram",
+    "description": "This package sends a message to your telegram group/channel",
+    "autoload": {
+        "psr-4": {
+            "Hosseinimh\\Telegram\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mahmoud Hosseini",
+            "email": "hosseinimh@gmail.com"
+        }
+    ],
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Hosseinimh\\Telegram\\TelegramServiceProvider"
+            ]
+        }
+    }
+}
